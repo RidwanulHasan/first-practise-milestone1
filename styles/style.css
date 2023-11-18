@@ -26,6 +26,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: multiply;
+    margin-bottom: 100px;
     
     
 }
@@ -47,6 +48,89 @@
     margin-top: 10px;
 
 }
+
+/* main area design  */
+
+main{
+
+    max-width: 1140px;
+    margin:auto;
+    background-color: bisque; 
+
+}
+
+
+/* donate today styles */
+
+.donate-today-container{
+    text-align: center;
+    padding: 100px;
+}
+
+
+.donate-today{
+    text-align: center;
+    /* margin-top: 100px; */
+    
+}
+
+.donate-title{
+    font-size: 50px;
+}
+
+/* box design  */
+
+
+
+main .box-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 40px;
+    
+    
+}
+
+ .box-container .box{
+    
+    font-size: 25px;
+    padding: 30px;
+    background: rgb(23, 118, 121);
+    border-radius: 5px ;
+    box-shadow: 10px 5px 5px rgb(2, 15, 57);
+    
+}
+
+.box-design{
+
+    font-size: 30px;
+    font-weight: 700;
+    padding: 20px;
+    background: rgb(23, 118, 121);
+    border-radius: 5px ;
+    border: 5px solid rgb(222, 49, 49);
+    color: rgba(212, 13, 13, 0.785);
+    box-shadow: 10px 5px 5px rgb(77, 4, 92);
+
+}
+
+
+/* input filed design  */
+
+.input-design{
+    margin-top: 100px;
+    width: 100%;
+    height: 50px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 5px;
+    
+}
+
+
 
 
 
