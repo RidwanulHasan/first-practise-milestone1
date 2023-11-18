@@ -1,5 +1,53 @@
+/* all body design */
+
 *{
     margin: 0;
     font-family: 'Kanit', sans-serif;
 }
+
+.btn-primary{
+    background-color: rgb(22, 1, 39);
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 30px;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+
+/* header area design */
+
+.header{
+
+    background-image: linear-gradient(to top, rgb(164, 85, 85),rgb(112, 59, 16)) ,url(../images/donation2.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    
+    
+}
+
+.header-area{
+    text-align: center;
+    padding-top: 100px;
+    
+}
+
+.header-title{
+    font-size: 50px;
+    color: aliceblue;
+    
+}
+
+.header-description{
+    color: rgb(193, 215, 235);
+    margin-top: 10px;
+
+}
+
+
+
 
