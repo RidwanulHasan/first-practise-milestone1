@@ -22,7 +22,7 @@
 .header{
 
     background-image: linear-gradient(to top, rgb(164, 85, 85),rgb(112, 59, 16)) ,url(../images/donation2.jpg);
-    height: 500px;
+    height: 650px;
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: multiply;
@@ -33,7 +33,7 @@
 
 .header-area{
     text-align: center;
-    padding-top: 100px;
+    padding: 200px;
     
 }
 
@@ -160,6 +160,75 @@ main .box-container{
     margin-bottom: 50px;
 }
 
+
+
+/* live depends on you  */
+
+.live-container{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 100px;
+    
+}
+
+.image-loading{
+    width: 50%;
+    border-radius: 5px;
+    
+}
+
+.live-depends{
+    width: 50%;
+}
+
+.live-title{
+    font-size: 40px;
+}
+
+.get-my-update{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.update-title{
+    font-size: 40px;
+}
+
+
+.input-container-design{
+    text-align: center;
+    margin: 100px;
+    background-color: aqua;
+    padding: 100px;
+}
+
+
+.input-text, .input-submit{
+
+    border: 0;
+    padding: 15px;
+    border-radius: 5px;
+    
+}
+
+.input-submit{
+
+    background-color: darkorange;
+    color: aliceblue;
+    font-weight: 900;
+
+}
+
+
+/* footer area design  */
+
+.footer-container{
+    text-align: center;
+    background-color: black;
+    color: darkorange;
+    padding: 70px;
+}
 
 
 
