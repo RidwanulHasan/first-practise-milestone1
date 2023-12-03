@@ -231,6 +231,77 @@ main .box-container{
 }
 
 
+/* Small device responsive*/
+
+@media screen and (max-width: 576px){
+
+    .header-area{
+
+        text-align: center;
+        padding: 100px;
+
+    }
+
+    .header-title{
+        font-size: 30px;
+    }
+    .live-container{
+        flex-direction: column-reverse;
+    }
+    .header-description{
+        margin-top: 20px;
+    }
+
+    .input-container-design{
+        margin: 0;
+        background-color: blueviolet;
+        
+    }
+
+    .input-submit{
+        margin-top: 10px;
+    }
+
+    .footer-container{
+        margin-top: 100px;
+    }
+
+    .image-loading{
+        width: 100%;
+    }
+
+    .live-depends{
+        width: 100%;
+        text-align: center;
+        
+    }
+
+    .donate-plan-flex{
+        flex-direction: column;
+        margin: 20px;
+        
+
+    }
+
+    .box-container{
+        flex-direction: column;
+    }
+
+    .box-container .box{
+        background: rgb(27, 10, 139);
+        color: rgb(169, 154, 136);
+        
+    }
+
+    .donate-today-container{
+        padding: 20px;
+    }
+
+    
+    
+}
+
+
 
 
 
